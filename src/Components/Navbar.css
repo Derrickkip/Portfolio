@@ -1,0 +1,37 @@
+.logo {
+    width: 50%;
+}
+.logo-name {
+    font-family: 'Fredericka the Great', cursive;
+    color: darkcyan;
+}
+
+li {
+    list-style-type: none;
+    margin: 0 2vw;
+    font-size: 3vh;
+}
+
+a {
+    text-decoration: none;
+    /* color: #ffffff; */
+    padding: 2vw;
+}
+
+nav {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    box-shadow: 1px darkgray;
+    background-color: black;
+}
+
+ul {
+    width: 50%;
+    margin: 0;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,17 @@
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.social-link {
+    font-size: 30px;
+}
+
+.linkedin {
+    color: #0077B5;
+}
+
+.github {
+    color: black;
+}
