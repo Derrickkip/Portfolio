@@ -1,0 +1,9 @@
+.project_card {
+    border-radius: 3px solid grey;
+    box-shadow: 3px green;
+    width: 25vw;
+}
+
+.project_image {
+    width: inherit;
+}
