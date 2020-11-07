@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Social from '../../Components/social/Social';
 import Button from '../../Components/button/Button'
+import image from '../../assets/images/image2.svg';
 import './Home.css';
-import image from '../../images/image2.svg';
 
 class Home extends Component {
     render() {
@@ -16,7 +16,7 @@ class Home extends Component {
                             <Social />
                             <div className="intro-buttons">
                                 <Button text="Contact me" href="/contact" />
-                                <Button text="View my resume" newTab={true} href="#" />
+                                <Button text="View my resume" newTab={true} href="https://drive.google.com/file/d/1ckAbCJcbhiBdD5oqEcDGzxLsb1vtPd0X/view?usp=sharing"/>
                             </div>
                         </div>
                     </div>

@@ -22,13 +22,13 @@ function TopNavbar() {
                         <Link to="skills" className="link">Skills</Link>
                     </li>
                     <li className="item">
-                        <Link to="projects" className="link">Projects</Link>
+                        <Link to="experience" className="link">Work Experience</Link>
                     </li>
                     <li className="item">
                         <Link to="blog" className="link">Blogs</Link>
                     </li>
                     <li className="item">
-                        <Link to="resume" className="link">Resume</Link>
+                        <Link to="contact" className="link">Contact Me</Link>
                     </li>
                 </ul>
             </header>

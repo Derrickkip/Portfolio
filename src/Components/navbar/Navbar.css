@@ -15,17 +15,24 @@
 
 .grey-color {
     color: #c5c6c7;
+    font-weight: bold;
 }
 
 .header li a {
     display: block;
     padding: 20px 20px;
-    color: #45a29e;
+    color: #0ac5a8;
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 .header li a:hover,
 .header .menu-btn:hover {
+    color:  #66fcf1;
+}
+
+.header li a:active {
     color: #66fcf1;
 }
 
@@ -34,7 +41,6 @@
     float: left;
     font-size: 1.5em;
     text-decoration: none;
-    margin-top: 10px;
     line-height: normal;
 }
 
@@ -43,12 +49,18 @@
 }
 
 .header .logo-name {
-    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Mr Dafoe', cursive;
     font-weight: bold;
-    color: #66fcf1;
+    font-size: 30px;
+    color: #0AC5A8;
     font-variant-ligatures: no-common-ligatures;
     -webkit-font-variant-ligatures: no-common-ligatures;
     padding: 0 10px;
+}
+
+.header .logo-img {
+    width: inherit;
+    height: inherit;
 }
 
 /* menu */

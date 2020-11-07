@@ -2,7 +2,10 @@ import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Navbar from './Components/navbar/Navbar';
 import Home from './Pages/home/Home';
-import Projects from './Pages/projects/Projects';
+import Skills from './Pages/skills/Skills';
+import Experience from './Pages/experience/WorkExperience';
+import Contact from './Pages/contact/Contact';
+import './assets/fonts/Font Awesome 5 Pro Solid.woff'
 
 function App() {
   return (
@@ -10,8 +13,14 @@ function App() {
       <Router>
         <Navbar/>
         <Switch>
-          <Route path="/Projects">
-            <Projects/>
+          <Route path="/experience">
+            <Experience/>
+          </Route>
+          <Route path="/skills">
+            <Skills/>
+          </Route>
+          <Route path="/contact">
+            <Contact/>
           </Route>
           <Route path="/">
             <Home/>
