@@ -28,7 +28,7 @@
 }
 
 .skills-text-subtitle {
-    font-size: 20px;
+    font-size: 14px;
     color:  #c5c6c7;
     font-family: 'Alegreya', serif;
 }
@@ -36,7 +36,7 @@
 .dev-icons {
     padding-left: 0;
     list-style: none;
-    margin: 0;
+    margin-top: 20px;
     text-align: center;
 }
 

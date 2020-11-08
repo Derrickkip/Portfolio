@@ -1,5 +1,4 @@
 import React from 'react';
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Navbar from './Components/navbar/Navbar';
 import Home from './Pages/home/Home';
 import Skills from './Pages/skills/Skills';
@@ -10,23 +9,11 @@ import './assets/fonts/Font Awesome 5 Pro Solid.woff'
 function App() {
   return (
     <div className="App">
-      <Router>
         <Navbar/>
-        <Switch>
-          <Route path="/experience">
-            <Experience/>
-          </Route>
-          <Route path="/skills">
-            <Skills/>
-          </Route>
-          <Route path="/contact">
-            <Contact/>
-          </Route>
-          <Route path="/">
-            <Home/>
-          </Route>
-        </Switch>
-      </Router>
+        <Home/>
+        <Skills/>
+        <Experience/>
+        <Contact/>
     </div>
   );
 }
