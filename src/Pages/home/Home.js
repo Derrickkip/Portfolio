@@ -18,7 +18,7 @@ class Home extends Component {
                                 <Social />
                                 <div className="intro-buttons">
                                     <Button text="Contact me" href="#contact" />
-                                    <Button text="View my resume" newTab={true} href="https://drive.google.com/file/d/1ckAbCJcbhiBdD5oqEcDGzxLsb1vtPd0X/view?usp=sharing" />
+                                    <Button text="View my resume" newTab={true} href="https://drive.google.com/file/d/1V7aplAb3P1ZC-U2utkI0KDiYqCIc87k6/view?usp=sharing" />
                                 </div>
                             </div>
                         </div>
