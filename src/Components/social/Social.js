@@ -17,6 +17,10 @@ class Social extends Component {
                     <i className="fab fa-google"></i>
                     <span></span>
                 </a>
+                <a href="https://drive.google.com/file/d/1V7aplAb3P1ZC-U2utkI0KDiYqCIc87k6/view?usp=sharing" className="icon-button google" target="_blank" rel="noopener noreferrer">
+                    <i className='fab cv'>CV</i>
+                    <span></span>
+                </a>
             </div>
         );
     }

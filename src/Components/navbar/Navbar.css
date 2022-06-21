@@ -1,9 +1,18 @@
 /* header */
 
+nav {
+    background: #f7f7f7;
+    font-family: "Roboto", sans-serif;
+    /* padding: 0 15rem; */
+}
+
 .header {
-    max-width: 90%;
-    padding: 20px 10px;
-    margin: 0px auto;
+    /* max-width: 90%; */
+    /* padding: 20px 10px; */
+    margin: 0 1rem;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
     /* background-color: #1f2833; */
 }
 
@@ -23,10 +32,12 @@
     position: relative;
     display: block;
     padding: 20px 20px;
-    color: #ffffff;
+    color: #000;
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+    font-size: 13.86px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.2em;
 }
 
 .header li a::before {
@@ -36,7 +47,7 @@
     height: 4px;
     bottom: 0;
     left: 0;
-    background-color: #0ac5a8;;
+    background-color: #0ac5a8;
     visibility: hidden;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
@@ -65,6 +76,7 @@
     font-size: 1.5em;
     text-decoration: none;
     line-height: normal;
+    padding-top: 10px;
 }
 
 .header .logo a {
@@ -72,10 +84,10 @@
 }
 
 .header .logo-name {
-    font-family: 'Mr Dafoe', cursive;
+    font-family: "Roboto", sans-serif;
     font-weight: bold;
     font-size: 30px;
-    color: #0AC5A8;
+    color: #000;
     font-variant-ligatures: no-common-ligatures;
     -webkit-font-variant-ligatures: no-common-ligatures;
     padding: 0 10px;
@@ -155,7 +167,7 @@
     top: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .header li {
         float: left;
     }
@@ -164,6 +176,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin: 0px 15rem;
     }
 
     .header .menu {
@@ -173,10 +186,22 @@
     .header .menu-icon {
         display: none;
     }
-}
 
-@media (max-width: 960px) and (min-width:768px) {
-    .header {
-        font-size: 12px;
+    .header .logo {
+        padding-top: 0px;
     }
 }
+
+/* @media (max-width: 960px) and (min-width:768px) {
+    .header {
+        /* display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 12px; */
+        /* margin: 0px 15rem; */
+    /* } */
+
+    /* .header .logo {
+        padding-top: 0px;
+    } */
+/* } */ 

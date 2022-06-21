@@ -10,12 +10,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <div class="overlay"></div>
+      {/* <div class="overlay"></div> */}
       <Navbar />
       <Home />
-      <Skills />
+      {/* <Skills />
       <Experience />
-      <Contact />
+      <Contact /> */}
     </div>
   );
 }

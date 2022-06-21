@@ -1,5 +1,6 @@
 .social-media-div {
     font-size: 2em;
+    margin-top: 10px;
 }
 
 .icon-button {
@@ -26,15 +27,15 @@
 }
 
 .linkedin i{
-    background-color: #0e76a8;
+    background-color: #795548;
 }
 
 .github i{
-    background-color: #333;
+    background-color: #795548;
 }
 
 .google i {
-    background-color: #ea4335;
+    background-color: #795548;
 }
 
 .google i:hover,
@@ -42,6 +43,10 @@
 .linkedin i:hover {
     background-color: #0B0C10;
     transition: 0.3s ease-in;
+}
+
+.cv {
+    font-weight: 600;
 }
 
 @media (max-width: 768px) {
