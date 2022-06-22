@@ -13,6 +13,7 @@ function App() {
       {/* <div class="overlay"></div> */}
       <Navbar />
       <Home />
+      <Skills />
       {/* <Skills />
       <Experience />
       <Contact /> */}

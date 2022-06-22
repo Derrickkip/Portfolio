@@ -1,5 +1,6 @@
 .home-page {
     height: 100%;
+    margin: 0 15rem 10rem 15rem;
 }
 
 .home-main {
@@ -15,10 +16,11 @@
 .intro {
     font-size: 2.25rem;
     /* color: #98a6ad; */
-    color: rgb(251 191 36);
+    color: #6f7b81;
     line-height: 1.25;
     font-weight: bold;
     font-family: "Montserrat",sans-serif;
+    /* margin-right: 15rem; */
 }
 
 .intro-small {
@@ -27,6 +29,7 @@
     color:  rgb(203 213 225);
     line-height: 40px;
     font-weight: 200;
+    /* margin-right: 15rem; */
 }
 
 .intro-buttons {
@@ -39,6 +42,7 @@
     flex-direction: column;
     align-items: center;
     margin: 40px auto;
+    /* border: 3px solid blue; */
     /* border: 2px solid red; */
 }
 
@@ -61,12 +65,21 @@
 }
 
 .home-image > img {
-    max-width: 40%;
+    max-width: 50%;
     /* height: auto; */
     /* background-color: #ffffff; */
     /* padding-right: 10px; */
     border-radius: 50%;
 
+}
+
+.home-text {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin: 40px auto;
+    /* border: 2px solid red; */
 }
 
 @media (max-width: 768px) {
@@ -98,4 +111,17 @@
         /* border-radius: 50%; */
         
     }
+
+    .home-page {
+        height: 100%;
+        margin: 1rem 1rem;
+    }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .home-page {
+        height: 100%;
+        margin: 1rem 1rem;
+    }
+}
+

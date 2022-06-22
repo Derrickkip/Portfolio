@@ -15,7 +15,7 @@ class Home extends Component {
                             <img src={image} alt="derrick working" className="home-image"></img>
                             <h2 id="my-name">Derrick Korir</h2>
                             <h3 id="job-title">Software Engineer</h3>
-                            <h4 id="job-place">Freelancer</h4>
+                            <h4 id="job-place">Freelance</h4>
                             <Social />
                             {/* <div className="intro-buttons">
                                 <Button text="Contact me" href="#contact" />
@@ -23,12 +23,16 @@ class Home extends Component {
                             </div> */}
                         </div>
                         <div className="home-text">
-                            <div className="about">
+                            {/* <div className="about"> */}
                                 <h1 className="intro">Overview</h1>
-                                <p className="intro-small">A passionate Software Developer having experience building web applications with Python / Django / Flask / Javascript / React / Redux / Graphql among other libraries and frameworks.</p>
+                                <p className="intro-small">Hi, I'm Derrick a fullstack software Engineer based in Nairobi. 
+                                                           I am a passionate developer who loves coding, open source and the web platform.
+                                </p>
+                                <p className="intro-small">Aside from my job, I like to create and contribute to open source projects.
+                                 This helps me to learn a ton of new stuff, grow as a developer and support other open source projects.
+                                </p>
                                 
-                                
-                            </div>
+                            {/* </div> */}
                         </div>
                     </div>
                 </div>

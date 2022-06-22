@@ -3,124 +3,102 @@ const skills = {
         {
             skillName: "Python",
             fontAwesomeClassname: "fab fa-python",
-            svgIcon: require("./assets/images/icons8-python.svg"),
-            color: "#3776AB"
-        },
-        {
-            skillName: "Flask",
-            fontAwesomeClassname: "fas fa-flask",
-            svgIcon: require("./assets/images/flask.svg"),
-            color: "#000000"
-        },
-        {
-            skillName: "FlaskAdmin",
-            fontAwesomeClassname: "",
-            svgIcon: require("./assets/images/flask_admin.png"),
-        },
-        {
-            skillName: "Django",
-            fontAwesomeClassName: "",
-            svgIcon: require("./assets/images/icons8-django.svg"),
-            color: "#092E20"
-        },
-        {
-            skillName: "Django Rest Framework",
-            fontAwesomeClassname: "",
-            svgIcon: require("./assets/images/drf1.png"),
+            miniSkills: ['Flask', 'Django', 'DRF']
+            // svgIcon: require("./assets/images/icons8-python.svg"),
+            // color: "#3776AB"
         },
         {
             skillName: "Javascript",
             fontAwesomeClassname: "fab fa-js-square",
-            svgIcon: require("./assets/images/icons8-javascript.svg"),
-            color: "#F7DF1E"
+            miniSkills: ['es6', 'React', 'Redux']
+            // svgIcon: require("./assets/images/icons8-python.svg"),
+            // color: "#3776AB"
         },
         {
-            skillName: "reactjs",
-            fontAwesomeClassname: "fab fa-react",
-            svgIcon: require("./assets/images/icons8-react.svg"),
-            color: "#61DAFB"
+            skillName: "Databases",
+            fontAwesomeClassname: "fas fa-database",
+            miniSkills: ['Postgresql']
+            // svgIcon: require("./assets/images/icons8-python.svg"),
+            // color: "#3776AB"
         },
         {
-            skillName: "Typescript",
-            fontAwesomeClassname: "",
-            svgIcon: require("./assets/images/icons8-typescript.svg"),
-            color: "#007ACC"
+            skillName: "Devops",
+            fontAwesomeClassname: "fab fa-docker",
+            // svgIcon: require("./assets/images/icons8-graphql.svg"),
+            // color: "#E10098"
+            miniSkills: ['Git', 'Github', 'Graphql']
         },
         {
-            skillName: "Redux",
-            fontAwesomeClassname: "",
-            svgIcon: require("./assets/images/icons8-redux.svg"),
-            color: "#764ABC"
+            skillName: "QA",
+            fontAwesomeClassname: "fa fa-question",
+            // svgIcon: require("./assets/images/icons8-typescript.svg"),
+            // color: "#007ACC"
+            miniSkills: ['Cucumber', 'Siteprism', 'Cabybara', 'Cypress']
         },
         {
-            skillName: "Postgresql",
-            fontAwesomeClassname: "",
-            svgIcon: require("./assets/images/icons8-postgresql.svg"),
-            color: "#336791"
+            skillName: "Tools",
+            fontAwesomeClassname: "fas fa-tools",
+            // svgIcon: require("./assets/images/icons8-graphql.svg"),
+            // color: "#E10098"
+            miniSkills: ['Git', 'Github', 'Graphql']
         },
-        {
-            skillName: "Graphql",
-            fontAwesomeClassname: "",
-            svgIcon: require("./assets/images/icons8-graphql.svg"),
-            color: "#E10098"
-        },
-        {
-            skillName: "Apollo Graphql",
-            fontAwesomeClassname: "",
-            svgIcon: require("./assets/images/icons8-apollo.svg"),
-            color: "#311C87" 
-        },
-        {
-            skillName: "Siteprism",
-            fontAwesomeClassname: "",
-            svgIcon: require("./assets/images/siteprism.png"),
-        },
-        {
-            skillName: "Cypress",
-            fontAwesomeClassname: "",
-            svgIcon: require("./assets/images/cypress.svg"),
-            color: "#17202C"
-        },
-        {
-            skillName: "Cucumber",
-            fontAwesomeClassname: "",
-            svgIcon: require("./assets/images/cucumber.png"),
-        },
-        {
-            skillName: "Capybara",
-            fontAwesomeClassname: "",
-            svgIcon: require("./assets/images/capybara.png"),
-        },
-        {
-            skillName: "AWS",
-            fontAwesomeClassname: "",
-            svgIcon: require("./assets/images/icons8-amazon-web-services.svg"),
-            color: "#232F3E"
-        },
-        {
-            skillName: "Docker",
-            fontAwesomeClassname: "",
-            svgIcon: require("./assets/images/icons8-docker.svg"),
-            color: "#232F3E"
-        },
-        {
-            skillName: "Git",
-            fontAwesomeClassname: "",
-            svgIcon: require("./assets/images/icons8-git.svg"),
-            color: "#F05032"
-        },
-        {
-            skillName: "Github",
-            fontAwesomeClassname: "",
-            svgIcon: require("./assets/images/icons8-github.svg"),
-            color: "#181717"
-        },
-        {
-            skillName: "Magento",
-            fontAwesomeClassname: "",
-            svgIcon: require("./assets/images/icons8-magento.svg"),
-            color: '#EE672F'
-        }
+        // {
+        //     skillName: "Apollo Graphql",
+        //     fontAwesomeClassname: "",
+        //     svgIcon: require("./assets/images/icons8-apollo.svg"),
+        //     color: "#311C87" 
+        // },
+        // {
+        //     skillName: "Siteprism",
+        //     fontAwesomeClassname: "",
+        //     svgIcon: require("./assets/images/siteprism.png"),
+        // },
+        // {
+        //     skillName: "Cypress",
+        //     fontAwesomeClassname: "",
+        //     svgIcon: require("./assets/images/cypress.svg"),
+        //     color: "#17202C"
+        // },
+        // {
+        //     skillName: "Cucumber",
+        //     fontAwesomeClassname: "",
+        //     svgIcon: require("./assets/images/cucumber.png"),
+        // },
+        // {
+        //     skillName: "Capybara",
+        //     fontAwesomeClassname: "",
+        //     svgIcon: require("./assets/images/capybara.png"),
+        // },
+        // {
+        //     skillName: "AWS",
+        //     fontAwesomeClassname: "",
+        //     svgIcon: require("./assets/images/icons8-amazon-web-services.svg"),
+        //     color: "#232F3E"
+        // },
+        // {
+        //     skillName: "Docker",
+        //     fontAwesomeClassname: "",
+        //     svgIcon: require("./assets/images/icons8-docker.svg"),
+        //     color: "#232F3E"
+        // },
+        // {
+        //     skillName: "Git",
+        //     fontAwesomeClassname: "",
+        //     svgIcon: require("./assets/images/icons8-git.svg"),
+        //     color: "#F05032"
+        // },
+        // {
+        //     skillName: "Github",
+        //     fontAwesomeClassname: "",
+        //     svgIcon: require("./assets/images/icons8-github.svg"),
+        //     color: "#181717"
+        // },
+        // {
+        //     skillName: "Magento",
+        //     fontAwesomeClassname: "",
+        //     svgIcon: require("./assets/images/icons8-magento.svg"),
+        //     color: '#EE672F'
+        // }
     ]
 }
 

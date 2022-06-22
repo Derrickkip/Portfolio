@@ -1,15 +1,51 @@
-.skills-main-div {
-    width: 90%;
+.main {
+    background-color: #23252f;
+    margin: 0 auto;
+}
+ .skills-main-div {
     display: flex;
-    padding: 20px 10px;
-    margin: 0px auto;
-    margin-top: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 5rem;
+    padding-bottom: 5rem;
+ }
+
+ .software-skill-inline {
+    display: flex;
+    flex: 1 0 15%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 5rem;
+ }
+
+ .software-skills-main-div {
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+.skills-heading{
+    /* margin-left: 10px; */
+    color: #6f7b81;
 }
 
-.skills-text-div {
-    margin-left: 10px;
+.icon {
+    font-size: 3rem;
+    color: #795548;
 }
 
+.skill-name {
+    color: #fff;
+    font-size: 1.25em;
+    font-weight: 600;
+}
+
+.mini {
+    color: #fff;
+    font-size: .8rem;
+}
+/*
 .skills-main-div > * {
     flex: 1;
     margin-bottom: 30px;
@@ -38,13 +74,14 @@
     list-style: none;
     margin-top: 20px;
     text-align: center;
-}
+} 
 
-.software-skill-inline {
+ .software-skill-inline {
     display: inline-block;
     margin-right: 20px;
     margin-bottom: 20px;
-}
+} 
+
 
 .software-skill-inline > i {
     color: #c5c6c7;
@@ -66,36 +103,18 @@
 }
 
 .skill-icons {
-    width: 50px;
-    height: 50px;
-}
+    /* width: 50px;
+    height: 50px; */
+    /* background-color: #795548; */
 
-@media (max-width: 768px) {
-    .skills-heading {
-        font-size: 30px;
-        text-align: center;
-    }
-
+/* @media (max-width: 568px) {
     .skills-main-div {
-        flex-direction: column
-    }
-
-    .skills-text-div {
-        margin-left: 0px;
-        margin: 20px;
-    }
-
-    .skills-text {
-        font-size: 16px;
-    }
-
-    .skills-text-subtitle {
-        font-size: 16px;
-        text-align: center;
-        color:  #c5c6c7;
-    }
-
-    .skills-image-div {
-        order: 2;
-    }
+        margin: 0 5rem;
+     }
 }
+
+@media only screen and (min-width: 569px) and (max-width: 1000px) {
+    .skills-main-div  {
+        margin: 1rem 1rem;
+    }
+} */
