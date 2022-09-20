@@ -1,6 +1,62 @@
-.social-media-div {
+.social {
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+}
+
+.social li {
+    height: 2rem;
+    margin-right: 0.8rem;
+    text-align: center;
+    width: 2rem;
+    list-style-type: none;
+}
+
+.social a {
+    /* align-items: center;
+    display: flex;
+    font-size: 1.5rem;
+    background-color: #FDC82F;
+    height: 2rem;
+    justify-content: center;
+    opacity: 0.5;
+    transition-property: opacity, transform;
+    width: 2rem;
+    will-change: opacity, transform; */
+    color: white;
+    border-radius: 2.6rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.5rem;
+    height: 2.6rem;
+    line-height: 2.6rem;
+    /* margin: 0 5px; */
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 2.6rem;
+    margin-bottom: 10px;
+    /* background-color: #FDC82F; */
+}
+
+.social a:hover {
+    opacity: 1;
+    transform: scale(1.25);
+}
+
+.social a:active {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+
+
+/* .social-media-div {
     font-size: 2em;
-    margin-top: 10px;
+    margin-top: 1.5rem;
 }
 
 .icon-button {
@@ -26,23 +82,18 @@
     margin-bottom: 10px;
 }
 
-.linkedin i{
-    background-color: #795548;
+.icon-button > i {
+    background-color: #FDC82F;
 }
 
-.github i{
-    background-color: #795548;
+.icon-button > i:hover {
+    opacity: 1;
+    transform: scale(1.25);
 }
 
-.google i {
-    background-color: #795548;
-}
-
-.google i:hover,
-.github i:hover,
-.linkedin i:hover {
-    background-color: #0B0C10;
-    transition: 0.3s ease-in;
+.icon-button > i:active {
+    opacity: 1;
+    transform: scale(1.1);
 }
 
 .cv {
@@ -53,4 +104,4 @@
     .social-media-div {
         text-align: center;
     }
-}
+} */

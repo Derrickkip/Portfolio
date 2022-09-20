@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './Components/navbar/Navbar';
+import Footer from './Components/footer/Footer';
 import Home from './Pages/home/Home';
 import Skills from './Pages/skills/Skills';
 import Experience from './Pages/experience/WorkExperience';
@@ -10,13 +11,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      {/* <div class="overlay"></div> */}
       <Navbar />
       <Home />
       <Skills />
-      {/* <Skills />
       <Experience />
-      <Contact /> */}
+      <Contact />
+      <Footer />
     </div>
   );
 }

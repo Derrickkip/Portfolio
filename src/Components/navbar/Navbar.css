@@ -1,19 +1,13 @@
 /* header */
 
 nav {
-    background: #f7f7f7;
     font-family: "Roboto", sans-serif;
-    /* padding: 0 15rem; */
 }
 
 .header {
-    /* max-width: 90%; */
-    /* padding: 20px 10px; */
-    margin: 0 1rem;
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
-    /* background-color: #1f2833; */
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0.2rem 1rem;
 }
 
 .header ul {
@@ -24,7 +18,7 @@ nav {
 }
 
 .grey-color {
-    color: #c5c6c7;
+    color: #FDC82F;
     font-weight: bold;
 }
 
@@ -32,7 +26,7 @@ nav {
     position: relative;
     display: block;
     padding: 20px 20px;
-    color: #000;
+    color: #fff;
     text-decoration: none;
     font-size: 13.86px;
     font-family: 'Roboto', sans-serif;
@@ -47,7 +41,7 @@ nav {
     height: 4px;
     bottom: 0;
     left: 0;
-    background-color: #0ac5a8;
+    background-color: #FDC82F;;
     visibility: hidden;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
@@ -63,11 +57,11 @@ nav {
 
 .header li a:hover,
 .header .menu-btn:hover {
-    color:  #66fcf1;
+    color:  #FDC82F;;
 }
 
 .header li a:active {
-    color: #66fcf1;
+    color: #FDC82F;;
 }
 
 .header .logo {
@@ -87,7 +81,7 @@ nav {
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     font-size: 30px;
-    color: #000;
+    color: #fff;
     font-variant-ligatures: no-common-ligatures;
     -webkit-font-variant-ligatures: no-common-ligatures;
     padding: 0 10px;
@@ -114,7 +108,7 @@ nav {
 }
 
 .header .menu-icon .navicon {
-    background:#45a29e;
+    background:#FDC82F;
     display: block;
     height: 2px;
     position: relative;
@@ -124,7 +118,7 @@ nav {
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-    background: #45a29e;
+    background: #FDC82F;
     content: "";
     display: block;
     height: 100%;
@@ -176,7 +170,7 @@ nav {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin: 0px 15rem;
+        margin: 0.2rem 15rem;
     }
 
     .header .menu {

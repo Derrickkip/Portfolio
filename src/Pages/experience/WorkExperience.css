@@ -1,35 +1,56 @@
-.experience-cards-div {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-    gap: 1rem 1rem;
-}
-
-.experience-heading {
-    font-size: 56px;
-    font-weight: 400;
-    color: #66fcf1;
-}
-
 .experience-container {
-    width: 90%;
-    padding: 20px 10px;
-    margin: 0px auto;
-    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100% 
 }
 
-.experience-container > * {
-    flex: 1;
+ .exp-heading {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 33.33333333%;
+    max-width: 33.3333333%;
+    justify-content: center;
 }
 
-@media (max-width: 1380px) {
-    .experience-heading {
-        font-size: 40px;
+
+
+.experience-cards-div {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 66.66666667%;
+    max-width: 66.66666667%;
+}
+
+
+
+.exp-row {
+    display: flex;
+}
+
+/* @media  screen and (max-width: 768px) {
+    .exp-heading {
+        padding-left: 1.25rem;
     }
-}
+} */
 
-@media (max-width: 768px) {
-    .experience-heading {
-        font-size: 30px;
-        text-align: center;
+@media screen and (max-width: 1200px) {
+    .experience-container {
+        flex-direction: column;
     }
+
+    .experience-cards-div, .exp-heading {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .exp-heading {
+        justify-content: flex-start;
+        padding-left: 1.25rem;
+    }
+
 }

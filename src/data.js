@@ -105,14 +105,16 @@ const skills = {
 const workExperiences = {
     experience: [
         {
-            role: "Software Engineer",
+            role: "Freelance Software Engineer",
             company: "Concept 254",
             companylogo: require("./assets/images/concept.png"),
-            date: "August 2020 - Present",
+            date: "August 2020 - May 2022",
             desc: "Concept 254 is a company that offers development services to clients. Some of the projects I've worked on include : ",
             link: "https://www.kingdom316gifts.com",
             descBullets: [
-                "Worked on integrating kingdom316gifts which is a magento site with Directsmile DSMI server which is a service that allows personalisation of products on the site before adding them to cart.",
+                "Customised the product page to enable editing of product personalisation and viewing of personalised product.",
+                "Integrated the application with Directsmile DSMI server to enable personalisation of gifts",
+                "Updated the order csv exports to include personalisation details."
             ]
         },
         {
@@ -123,10 +125,9 @@ const workExperiences = {
             desc: "Bricklane is an investment company in London, UK that allows it's customers to invest in expertly choosen property in various cities across the UK returning dividends from rental income of the properties. \n Some of my achievements while in Bricklane include:",
             link: "https://www.bricklane.com",
             descBullets: [
-                "Working as a full-stack engineer, added several features to the company's applications (frontend, backend and admin site).",
-                "Upgraded the company's stripe integration in line with the new EU rules on customer privacy.",
-                "Added QA tests for existing and every new features.",
-                "Main technologies used include Python(Flask, Flask Admin), React/Redux, Typescript, Graphql, Capybara, Siteprism."
+                "Implemented several key features from the backlog including automating the bi weekly platform orders.",
+                "Implemented 3D secure stripe payment.",
+                "Wrote unit and integration tests for existing and new features.",
             ]
         },
         {
@@ -137,9 +138,9 @@ const workExperiences = {
             desc: "Andela is a software development company that employs promising developers in Africa and provides them with work experience to enable them level up their skills. Some of the noteworthy experiences in Andela include:",
             link: "https://www.andela.com",
             descBullets: [
-                "Worked on wire, a workplace incident reporting application for Andela using React/Redux for the frontend and node/express for the back-end.",
-                "Worked in a remote team to build Activo, an asset management application for Andela using React/Redux and Typescript for the frontend and Python(Flask) for the backend. Managed to deliver MVP for the product in a relatively short time.",
-                "During my internship, I worked on Authors Haven, an application that allows authors to share creative ideas. The application uses React/Redux for the frontend and Python(Django REST framework) for the back-end."
+                "Worked on wire, an inhouse workplace incident reporting application",
+                "Worked in a remote team to build Activo, an inhouse asset management application",
+                "During my internship, I worked on Authors Haven, an application that allows authors to share creative ideas."
             ]
         },
     ]

@@ -1,5 +1,5 @@
 .main {
-    background-color: #23252f;
+    background-color: rgb(5, 5, 5);;
     margin: 0 auto;
 }
  .skills-main-div {
@@ -25,14 +25,15 @@
     flex-wrap: wrap;
  }
 
-.skills-heading{
-    /* margin-left: 10px; */
-    color: #6f7b81;
+ .skills-heading {
+    color: #FDC82F;
+    flex: 0 0 100%;
+    max-width: 100%;
 }
 
 .icon {
     font-size: 3rem;
-    color: #795548;
+    color: #FDC82F;
 }
 
 .skill-name {
@@ -43,7 +44,15 @@
 
 .mini {
     color: #fff;
-    font-size: .8rem;
+    font-size: 0.8rem;
+    font-family: 'Lato',sans-serif;
+}
+
+.featurette {
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: #555;
+    text-align: center;
 }
 /*
 .skills-main-div > * {
@@ -113,8 +122,17 @@
      }
 }
 
+*/
+
 @media only screen and (min-width: 569px) and (max-width: 1000px) {
     .skills-main-div  {
         margin: 1rem 1rem;
+    }
+}
+
+/* @media (min-width: 768px) {
+    .skills-heading {
+        flex: 0 0 100%;
+        max-width: 100%;
     }
 } */

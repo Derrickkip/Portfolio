@@ -1,28 +1,33 @@
 import React from "react";
 import ScrollableAnchor from 'react-scrollable-anchor';
 import "./Contact.css";
-import SocialMedia from "../../Components/social/Social";
 
 export default function Contact() {
     return (
         <ScrollableAnchor id={'contact'}>
-            <div className="main contact-margin-top" id="contact">
-                <div className="contact-div-main">
-                    <div className="contact-header">
-                        <h1 className="heading contact-title">Contact Me</h1>
-                        <p className="subTitle contact-subtitle">Discuss a project or just want to say hi? My Inbox is open for all.</p>
-
-                        <div className="contact-text-div">
-                            <a className="contact-detail" href={"tel: +254727138659"}>+254727138659</a>
-                            <br /><br />
-                            <a className="contact-detail-email"
-                                href="mailto: derrick.korir@gmail.com">derrick.korir@gmail.com</a>
-                            <br /><br />
-                            <SocialMedia />
+            <div className="home-section">
+                <div className="container">
+                    <div className="row full-width contact-row">
+                        <div className="contact-header">
+                            <h1 className="contact-title">Contact</h1>
                         </div>
-                    </div>
-                    <div className="contact-image-div">
-                        {/* <img alt="derrick working" src={image}></img> */}
+                        <div className="contact-form">
+                            <form name="contact">
+                                <div className="form-group">
+                                    <label className="sr-only" htmlFor="inputName">Name</label>
+                                    <input type="text" name="name" className="form-control" id="inputName" placeholder="Name" required></input>
+                                </div>
+                                <div className="form-group">
+                                    <label className="sr-only" htmlFor="inputEmail">Email</label>
+                                    <input type="text" name="email" className="form-control" id="inputEmail" placeholder="Email" required></input>
+                                </div>
+                                <div className="form-group">
+                                    <label className="sr-only" htmlFor="inputMessage">Message</label>
+                                    <textarea name="message" className="form-control" id="inputMessage" placeholder="Message" rows='5' required></textarea>
+                                </div>
+                                <button type="submit" className="btn">Send</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
