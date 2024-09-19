@@ -5,39 +5,10 @@
     text-align: center;
     padding: 30px 10px;
     position: relative;
+    /* border: 1px solid red; */
 }
 
 
-.home-page {
-    min-height: 70vh;
-    /* margin: 5rem 15rem 5rem 15rem;
-    display: flex; */
-}
-
-.home-main {
-    display: flex;
-    margin: 0 auto;
-}
-
-.intro {
-    display: flex;
-    justify-self: flex-start;
-    padding: 0 10px;
-    font-size: 2.25rem;
-    color: #FDC82F;
-    line-height: 1.25;
-    font-weight: bold;
-    font-family: "Quattrocento",serif;
-}
-
-.description {
-    font-size: 1.25rem;
-    font-family: 'Lato',sans-serif;
-    color:  #fff;
-    line-height: 40px;
-    padding: 0 10px;
-    font-weight: 200;
-}
 
 .picture {
     display: flex;
@@ -46,11 +17,11 @@
     margin: 40px auto;
 }
 
-.picture-image {
-    max-width: 50%;
-    border-radius: 290486px;
+/* .picture-image {
+    max-width: 100%;
+    border-radius: 10px;
     animation: picImage;
-}
+} */
 
 .name {
     font-size: 2.25rem;
@@ -71,12 +42,6 @@
 .job-place {
     margin: 10px auto;
     color: #795548;
-}
-
-.about {
-    display: flex;
-    flex-direction: column;
-    margin: 40px auto;
 }
 
 .hr {
@@ -111,9 +76,9 @@
         display: block;
     }
 
-    .picture-image {
+    /* .picture-image {
         max-width: 50%;
-    }
+    } */
 
     .home-page {
         margin: 1rem 1rem;

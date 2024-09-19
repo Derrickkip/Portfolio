@@ -8,29 +8,18 @@ class Home extends Component {
     render() {
         return (
             <div className="home-section" id="home">
-                <div className="container">
-                    <div className='row'>
-                        <Slide left cascade>
-                            <div className="col-12 col-lg-4">
-                                <div className='profile'>
-                                    <img src={image} alt="portrait of Derrick" className="picture-image"></img>
-                                    <h2 className="name">Derrick Korir</h2>
-                                    <h3 className="job-title">Software Developer</h3>
-                                    <Social />
-                                </div>
-                            </div>
-                        </Slide>
-                        <Slide right cascade>
-                            <div className="col-12 col-lg-8">
-                                <h1 className="intro">Overview</h1>
-                                <p className="description">Hi, I'm Derrick a software Developer based in Nairobi with 5 years experience in building applications using a variety of frameworks and languages. Most of my professional development experience has involved working fullstack using Python and Javascript.<br/>
-                                I love all aspects of programming and spend most of my free time learning new technologies and improving my skills.<br/><br/>
-                                When not planted infront of a computer, I like reading books, taking long runs and occasionally visiting the numerous wild parks we have in Kenya.
-                                </p>
-                            </div>
-                        </Slide>
-                    </div>
-                </div>
+                {/* <div className="container"> */}
+                    <aside className="side">
+                        <figure class="picture">
+                            <div className='picture-shadow'></div>
+                            <img src={image} alt="portrait of Derrick" className="picture-image" width="320" height="320"></img>
+                        </figure>
+                    </aside>
+                    <main className="about">
+                        <h3>&lt;Hello, World&gt;</h3>
+                        <p className='introduction'>My Name is Derrick Korir. I am a Full Stack Developer from Nairobi.</p>
+                    </main>
+                {/* </div> */}
             </div>
         );
     }
