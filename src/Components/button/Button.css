@@ -1,25 +1,25 @@
-.main-button {
-    background-color: #45a29e;
-    border: solid 1px #45a29e;
+.button {
+    background-color: inherit;
+    border: solid 1px #ffffff;
     color: white;
-    font-weight: 700;
     width: max-content;
-    padding: 13px 22px;
-    margin-right: 50px;
+    padding: 1.25em 5em;
     text-transform: uppercase;
-    border-radius: 6px;
     text-align: center;
     text-decoration: none;
-    display: block;
+    text-shadow: none;
+    display: inline-block;
     margin-top: 20px;
-    font-size: 16px;
+    font-size: 0.875rem;
     cursor: pointer;
     transition: all .3s ease-in-out 0s;
+    white-space: nowrap;
+    line-height: 1;
 }
 
-.main-button:hover {
-    background-color: #c5c6c7;
-    color: #45a29e;
+.button:hover {
+    background-color: #ffffff;
+    color: #000000;
     transition: all .3s ease 0s;
     transform: translateY(-3px);
 }

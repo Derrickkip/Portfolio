@@ -4,38 +4,43 @@ import { goToAnchor } from 'react-scrollable-anchor';
 import './Navbar.css';
 
 function TopNavbar() {
+    const [navbarCollapse, setNavbarCollapse] = React.useState(false);
+    const [checked, setChecked] = React.useState(false);
+
+    const toggleNavbarCollapse = () => {
+        setNavbarCollapse(!navbarCollapse);
+        setChecked(!checked)
+        console.log(navbarCollapse)
+      };
+
     return (
-        <Slide top cascade>
-            <nav>
-                <header className="header">
-                    <span className="logo">
-                        <a href="/">
-                            <span className="grey-color">&lt; </span>
-                            <span className="logo-name">Derrick Korir</span>
-                            <span className="grey-color"> /&gt;</span>
-                        </a>
-                    </span>
-                    <input className="menu-btn" type="checkbox" id="menu-btn" />
-                    <label className="menu-icon" htmlFor="menu-btn">
-                        <span className="navicon"></span>
-                    </label>
+        <nav>
+            <header className="header">
+                <input className="menu-btn" type="checkbox" id="menu-btn" checked={checked}/>
+                <label className="menu-icon" htmlFor="menu-btn" onClick={toggleNavbarCollapse}>
+                    <span className="navicon"></span>
+                </label>
+                {navbarCollapse && (
                     <ul className="menu">
                         <li className="item">
-                            <a href="#skills" className="link" onClick={() => goToAnchor('skills')}>Skills</a>
+                            <a href="#home" className="link" onClick={() => {goToAnchor('home'); toggleNavbarCollapse()}}>Home</a>
                         </li>
                         <li className="item">
-                            <a href="#experience" className="link" onClick={() => goToAnchor('experience')}>Experience</a>
+                            <a href="#skills" className="link" onClick={() => {goToAnchor('skills'); toggleNavbarCollapse()}}>Skills</a>
                         </li>
                         <li className="item">
-                            <a href="#blog" className="link" onClick={() => goToAnchor('blog')}>Blogs</a>
+                            <a href="#experience" className="link" onClick={() => {goToAnchor('experience'); toggleNavbarCollapse()}}>Projects</a>
                         </li>
                         <li className="item">
-                            <a href="#contact" className="link" onClick={() => goToAnchor('contact')}>Contact Me</a>
+                            <a href="#blog" className="link" onClick={() => {goToAnchor('blog'); toggleNavbarCollapse()}}>Blog</a>
+                        </li>
+                        <li className="item">
+                            <a href="#contact" className="link" onClick={() => {goToAnchor('contact'); toggleNavbarCollapse()}}>Contact</a>
                         </li>
                     </ul>
-                </header>
-            </nav>
-        </Slide>
+                )}
+            </header>
+        </nav>
     );
 }
 

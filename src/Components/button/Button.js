@@ -1,12 +1,10 @@
 import React from "react";
 import "./Button.css";
 
-export default function Button({text, className, href, newTab}) {
+export default function Button({text, href, newTab}) {
     return (
-        <div className={className}>
-            <a href={href} className="main-button" target={newTab && "_blank"}>
-                {text}
-            </a>
-        </div>
+        <a href={href} className='button' target={newTab && "_blank"}>
+            {text}
+        </a>
     )
 }

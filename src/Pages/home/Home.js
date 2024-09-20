@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Slide from "react-reveal/Slide";
 import Social from '../../Components/social/Social';
+import Button from '../../Components/button/Button';
 import image from '../../assets/images/derrick.jpg';
 import './Home.css';
 
@@ -18,6 +19,13 @@ class Home extends Component {
                     <main className="about">
                         <h3>&lt;Hello, World&gt;</h3>
                         <p className='introduction'>My Name is Derrick Korir. I am a Full Stack Developer from Nairobi.</p>
+                        <div className="contact">
+                            <Button
+                                text={'CONTACT ME'}
+                                href={'/home'}
+                                newTab={false}
+                            />
+                        </div>
                     </main>
                 {/* </div> */}
             </div>
