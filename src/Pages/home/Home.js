@@ -17,11 +17,11 @@ class Home extends Component {
                     </aside>
                     <main className="about">
                         <h3>&lt;Hello, World&gt;</h3>
-                        <p className='introduction'>My Name is Derrick&nbsp;Korir full stack developer from Nairobi.</p>
+                        <p className='introduction'>My Name is Derrick&nbsp;Korir. I am a full stack developer from Nairobi.</p>
                         <div className="contact">
                             <Button
                                 text={'CONTACT ME'}
-                                href={'/home'}
+                                href={'#contact'}
                             />
                         </div>
                     </main>

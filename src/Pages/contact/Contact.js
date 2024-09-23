@@ -6,30 +6,30 @@ export default function Contact() {
     return (
         <ScrollableAnchor id={'contact'}>
             <div className="home-section">
-                <div className="container">
-                    <div className="row full-width contact-row">
+                    <div className="contact-info">
                         <div className="contact-header">
-                            <h1 className="contact-title">Contact</h1>
+                            <h3>&lt;Contact&gt;</h3>
+                            <p className="info-text">Just give me a message whenever and however <br/>
+                                you want and we will start our cooperation.
+                            </p>
+                            <p className="info-text">
+                                MY PHONE: <br/>
+                                +254 727 138 659
+                            </p>
+                            <p className="info-text">
+                                EMAIL: <br/>
+                                derrick.korir@gmail.com
+                            </p>
                         </div>
                         <div className="contact-form">
-                            <form name="contact">
-                                <div className="form-group">
-                                    <label className="sr-only" htmlFor="inputName">Name</label>
-                                    <input type="text" name="name" className="form-control" id="inputName" placeholder="Name" required></input>
-                                </div>
-                                <div className="form-group">
-                                    <label className="sr-only" htmlFor="inputEmail">Email</label>
-                                    <input type="text" name="email" className="form-control" id="inputEmail" placeholder="Email" required></input>
-                                </div>
-                                <div className="form-group">
-                                    <label className="sr-only" htmlFor="inputMessage">Message</label>
-                                    <textarea name="message" className="form-control" id="inputMessage" placeholder="Message" rows='5' required></textarea>
-                                </div>
-                                <button type="submit" className="btn">Send</button>
+                            <form className="form-contact" name="contact">
+                                    <input type="text" name="name" className="form-control" id="inputName" placeholder="NAME" required></input>
+                                    <input type="text" name="email" className="form-control" id="inputEmail" placeholder="EMAIL" required></input>
+                                    <textarea name="message" className="form-control" id="inputMessage" placeholder="Your message" rows='10' required></textarea><br/>
+                                    <button type="submit" className="button">Send</button>
                             </form>
                         </div>
                     </div>
-                </div>
             </div>
         </ScrollableAnchor>
     )

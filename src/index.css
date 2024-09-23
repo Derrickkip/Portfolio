@@ -46,8 +46,6 @@ h3 {
   background-color: black;
   display: flex;
   min-height: 100vh;
-  /* align-items: center;
-  justify-content: center; */
   position: relative;
 }
 
@@ -103,6 +101,7 @@ h3 {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  border: 1px solid red;
 }
 
 .row {
@@ -204,8 +203,7 @@ h1 {
 @media screen and (max-width: 799px) {
   .home-section {
     flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
+    align-items: center;
     padding: 5rem 3rem;
   }
 
@@ -224,9 +222,8 @@ h1 {
 @media screen and (min-width: 800px) {
   .home-section {
     align-items: center;
-    justify-content: space-around;
     justify-content: space-evenly;
-    /* padding: 4rem; */
+    padding: 0 4rem;
   }
   .side {
     flex-grow: 0;
