@@ -7,7 +7,7 @@ export default function Skills() {
     return (
         <ScrollableAnchor id={"skills"}>
             <div className="home-section">
-                <div className="container">
+                {/* <div className="container">
                     <div className="row featurette">
                         <h1 className="skills-heading">Skills</h1>
                         <div className="software-skills-main-div">
@@ -26,6 +26,9 @@ export default function Skills() {
                                 })}
                         </div>
                     </div>
+                </div> */}
+                <div className="skills">
+                    <h3>&lt;Skills&gt;</h3>
                 </div>
             </div>
         </ScrollableAnchor>

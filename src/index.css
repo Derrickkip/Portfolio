@@ -27,6 +27,11 @@ body {
   text-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
+body.nav-open {
+    overflow: hidden;
+    position: relative;
+}
+
 a {
   color: currentColor;
   cursor: pointer;
@@ -199,14 +204,21 @@ h1 {
 @media screen and (max-width: 799px) {
   .home-section {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     padding: 5rem 3rem;
   }
-  .side {
-    margin-bottom: 3rem;
-    width: 100%;
-  }
+
+  .introduction {
+        font-size: 1.5rem;
+        line-height: 1.125;
+        margin-bottom: 0.5rem;
+    }
+
+    .side {
+        margin-bottom: 3rem;
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 800px) {

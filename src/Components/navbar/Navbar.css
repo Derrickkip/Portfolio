@@ -1,9 +1,10 @@
 /* header */
 
 nav {
-    font-family: "Roboto", sans-serif;
+    font-family: SpaceMono, "Roboto", sans-serif;
     position: fixed;
     z-index: 1;
+    /* border: 1px solid white; */
 }
 
 .header {
@@ -80,6 +81,20 @@ nav {
     transform: scaleX(1);
     -webkit-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
+}
+
+.header .menu .items {
+    display: none;
+}
+
+.header .menu .items a {
+    width: 25px;
+    padding: 0.3rem;
+    cursor: pointer;
+}
+
+.header .menu .email {
+    display: none;
 }
 
 .header .menu-icon {
@@ -161,4 +176,26 @@ nav {
     .header .logo {
         padding-top: 0px;
     }
+}
+
+@media screen and (max-width: 799px) {
+    .header li a {
+        font-size: 1.5rem;
+        line-height: 1em;
+        padding: 10px 10px;
+        color: #9E9E9E;
+    }
+
+    .header .menu .items {
+        display: flex;
+    }
+
+    .header .menu .email {
+        display: flex;
+        position: fixed;
+        bottom: 2rem;
+        font-size: 0.9rem;
+        color: #9E9E9E;
+    }
+
 }

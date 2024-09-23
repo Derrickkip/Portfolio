@@ -4,6 +4,11 @@
     vertical-align: top;
 }
 
+@media screen and (max-width: 799px) {
+    .contact {
+        margin: 0;
+    }
+}
 
 
 

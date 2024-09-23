@@ -3,10 +3,10 @@
     margin: 0 auto;
 }
 
-.contact {
-    display: flex;
+/* .contact { */
+    /* display: flex; */
     /* padding: 5rem 15rem 5rem 15rem; */
-}
+/* } */
 
 .contact-row {
     flex-wrap: nowrap;
@@ -87,14 +87,14 @@ textarea.form-control {
 }
 
 @media screen and (max-width: 1200px) {
-    .contact {
+    /* .contact {
         flex-direction: column;
         padding: 2rem;
     }
 
     .contact-header {
         width: 100%;
-      }
+      } */
 }
 
 @media only screen and (max-width: 768px) {
