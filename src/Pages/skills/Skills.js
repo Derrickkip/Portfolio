@@ -44,7 +44,7 @@ export default function Skills() {
                     {skills.softwareSkills.map(skills => {
                         return (
                             <div className="software-skill-inline" key={skills.skillName}>
-                                <img
+                                <img alt="skill-icon"
                                     src={skills.svgIcon}
                                 />
                                 {/* <p className="skill-name">{skills.skillName}</p>
