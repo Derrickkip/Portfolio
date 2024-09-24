@@ -224,6 +224,13 @@ h1 {
     } */
 }
 
+@media screen and (max-height: 740px) {
+  .side {
+    padding: 0;
+    height: 20rem;
+  }
+}
+
 @media screen and (min-width: 800px) {
   .home-section {
     align-items: center;
