@@ -47,15 +47,20 @@ h3 {
   display: flex;
   min-height: 100vh;
   position: relative;
+  width: 80%;
+  /* border: 1px solid red; */
 }
 
 .side { 
-  max-height: 20rem;
-  max-width: 20rem;
+  width: 20rem;
+  height: 25rem;
+  padding-top: 5rem;
+  /* border: 1px solid green; */
 }
 
 .about { 
-  max-width: 26rem;
+  max-width: 35rem;
+  /* border: 1px solid white; */
 }
 
 .picture-shadow,
@@ -87,9 +92,9 @@ h3 {
 }
 
 .introduction {
-    font-size: 2.25rem;
-    line-height: 1.125;
-    margin-bottom: 0.5rem;
+  font-size: 1rem;
+  /* line-height: 1.125; */
+  margin-bottom: 0.5rem;
 }
 
 .container {
@@ -207,7 +212,7 @@ h1 {
     padding: 5rem 3rem;
   }
 
-  .introduction {
+  /* .introduction {
         font-size: 1.5rem;
         line-height: 1.125;
         margin-bottom: 0.5rem;
@@ -215,27 +220,26 @@ h1 {
 
     .side {
         margin-bottom: 3rem;
-        width: 100%;
-    }
+        width: 15rem;
+    } */
 }
 
 @media screen and (min-width: 800px) {
   .home-section {
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 0 4rem;
   }
-  .side {
-    flex-grow: 0;
-    flex-shrink: 0;
-    height: 20rem;
-    margin-left: 4rem;
-    order: 2;
-    width: 20rem;
-  }
-  .about {
+  /* .side {
     flex-grow: 1;
     flex-shrink: 1;
-  }
+    height: 40rem;
+    margin-left: 4rem;
+    order: 2;
+    width: 40rem;
+    /* border: 1px solid red; */
+  /* .about {
+    flex-grow: 1;
+    flex-shrink: 1;
+  } */
 }
-

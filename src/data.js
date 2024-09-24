@@ -3,51 +3,51 @@ const skills = {
         {
             skillName: "Python",
             fontAwesomeClassname: "fab fa-python",
-            miniSkills: ['Flask', 'Django', 'DRF']
-            // svgIcon: require("./assets/images/icons8-python.svg"),
+            miniSkills: ['Flask', 'Django', 'DRF'],
+            svgIcon: require("./assets/images/icons8-python.svg"),
             // color: "#3776AB"
         },
-        {
-            skillName: "Javascript",
-            fontAwesomeClassname: "fab fa-js-square",
-            miniSkills: ['es6', 'React', 'Redux']
-            // svgIcon: require("./assets/images/icons8-python.svg"),
-            // color: "#3776AB"
-        },
-        {
-            skillName: "Databases",
-            fontAwesomeClassname: "fas fa-database",
-            miniSkills: ['Postgresql']
-            // svgIcon: require("./assets/images/icons8-python.svg"),
-            // color: "#3776AB"
-        },
+        // {
+        //     skillName: "Javascript",
+        //     fontAwesomeClassname: "fab fa-js-square",
+        //     miniSkills: ['es6', 'React', 'Redux'],
+        //     svgIcon: require("./assets/images/icons8-python.svg"),
+        //     // color: "#3776AB"
+        // },
+        // {
+        //     skillName: "Databases",
+        //     fontAwesomeClassname: "fas fa-database",
+        //     miniSkills: ['Postgresql'],
+        //     svgIcon: require("./assets/images/icons8-python.svg"),
+        //     // color: "#3776AB"
+        // },
         {
             skillName: "Devops",
             fontAwesomeClassname: "fab fa-docker",
-            // svgIcon: require("./assets/images/icons8-graphql.svg"),
+            svgIcon: require("./assets/images/icons8-graphql.svg"),
             // color: "#E10098"
             miniSkills: ['Git', 'Github', 'Graphql']
         },
         {
             skillName: "QA",
             fontAwesomeClassname: "fa fa-question",
-            // svgIcon: require("./assets/images/icons8-typescript.svg"),
+            svgIcon: require("./assets/images/icons8-typescript.svg"),
             // color: "#007ACC"
             miniSkills: ['Cucumber', 'Siteprism', 'Cabybara', 'Cypress']
         },
-        {
-            skillName: "Tools",
-            fontAwesomeClassname: "fas fa-tools",
-            // svgIcon: require("./assets/images/icons8-graphql.svg"),
-            // color: "#E10098"
-            miniSkills: ['Git', 'Github', 'Graphql']
-        },
         // {
-        //     skillName: "Apollo Graphql",
-        //     fontAwesomeClassname: "",
-        //     svgIcon: require("./assets/images/icons8-apollo.svg"),
-        //     color: "#311C87" 
+        //     skillName: "Tools",
+        //     fontAwesomeClassname: "fas fa-tools",
+        //     svgIcon: require("./assets/images/icons8-graphql.svg"),
+        //     // color: "#E10098"
+        //     miniSkills: ['Git', 'Github', 'Graphql']
         // },
+        {
+            skillName: "Apollo Graphql",
+            fontAwesomeClassname: "",
+            svgIcon: require("./assets/images/icons8-apollo.svg"),
+            color: "#311C87" 
+        },
         // {
         //     skillName: "Siteprism",
         //     fontAwesomeClassname: "",
@@ -59,46 +59,46 @@ const skills = {
         //     svgIcon: require("./assets/images/cypress.svg"),
         //     color: "#17202C"
         // },
-        // {
-        //     skillName: "Cucumber",
-        //     fontAwesomeClassname: "",
-        //     svgIcon: require("./assets/images/cucumber.png"),
-        // },
+        {
+            skillName: "Cucumber",
+            fontAwesomeClassname: "",
+            svgIcon: require("./assets/images/cucumber.png"),
+        },
         // {
         //     skillName: "Capybara",
         //     fontAwesomeClassname: "",
         //     svgIcon: require("./assets/images/capybara.png"),
         // },
-        // {
-        //     skillName: "AWS",
-        //     fontAwesomeClassname: "",
-        //     svgIcon: require("./assets/images/icons8-amazon-web-services.svg"),
-        //     color: "#232F3E"
-        // },
-        // {
-        //     skillName: "Docker",
-        //     fontAwesomeClassname: "",
-        //     svgIcon: require("./assets/images/icons8-docker.svg"),
-        //     color: "#232F3E"
-        // },
-        // {
-        //     skillName: "Git",
-        //     fontAwesomeClassname: "",
-        //     svgIcon: require("./assets/images/icons8-git.svg"),
-        //     color: "#F05032"
-        // },
+        {
+            skillName: "AWS",
+            fontAwesomeClassname: "",
+            svgIcon: require("./assets/images/icons8-amazon-web-services.svg"),
+            color: "#232F3E"
+        },
+        {
+            skillName: "Docker",
+            fontAwesomeClassname: "",
+            svgIcon: require("./assets/images/icons8-docker.svg"),
+            color: "#232F3E"
+        },
+        {
+            skillName: "Git",
+            fontAwesomeClassname: "",
+            svgIcon: require("./assets/images/icons8-git.svg"),
+            color: "#F05032"
+        },
         // {
         //     skillName: "Github",
         //     fontAwesomeClassname: "",
         //     svgIcon: require("./assets/images/icons8-github.svg"),
-        //     color: "#181717"
+        //     // color: "#181717"
         // },
-        // {
-        //     skillName: "Magento",
-        //     fontAwesomeClassname: "",
-        //     svgIcon: require("./assets/images/icons8-magento.svg"),
-        //     color: '#EE672F'
-        // }
+        {
+            skillName: "Magento",
+            fontAwesomeClassname: "",
+            svgIcon: require("./assets/images/icons8-magento.svg"),
+            color: '#EE672F'
+        }
     ]
 }
 

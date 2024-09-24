@@ -1,138 +1,29 @@
-/* .main {
-    background-color: rgb(5, 5, 5);;
-    margin: 0 auto;
+.skills-container {
+    width: 100%;
 }
- .skills-main-div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0px 5rem;
-    padding-bottom: 5rem;
- }
 
- .software-skill-inline {
+.skills {
     display: flex;
-    flex: 1 0 15%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 2rem 5rem;
- }
+    width: 100%;
+    justify-content: space-evenly;
+}
 
- .software-skills-main-div {
+.skills .overview {
+    max-width: 40rem;
+}
+
+.skills .icons {
+    max-width: 20rem;
     display: flex;
+    margin-top: 2rem;
     flex-wrap: wrap;
- }
-
- .skills-heading {
-    color: #FDC82F;
-    flex: 0 0 100%;
-    max-width: 100%;
 }
 
-.icon {
-    font-size: 3rem;
-    color: #FDC82F;
-}
-
-.skill-name {
-    color: #fff;
-    font-size: 1.25em;
-    font-weight: 600;
-}
-
-.mini {
-    color: #fff;
-    font-size: 0.8rem;
-    font-family: 'Lato',sans-serif;
-}
-
-.featurette {
-    font-size: 0.8rem;
-    line-height: 1.5;
-    color: #555;
-    text-align: center;
-} */
-/*
-.skills-main-div > * {
-    flex: 1;
-    margin-bottom: 30px;
-}
-
-.skills-image-div > img {
-    max-width: 100%;
-    height: auto;
-}
-
-.skills-heading {
-    font-size: 50px;
-    color: #0AC5A8;
-    margin-top: 0;
-    font-family: 'Lora', serif;
-}
-
-.skills-text-subtitle {
-    font-size: 14px;
-    color:  #c5c6c7;
-    font-family: 'Alegreya', serif;
-}
-
-.dev-icons {
-    padding-left: 0;
-    list-style: none;
-    margin-top: 20px;
-    text-align: center;
-} 
-
- .software-skill-inline {
-    display: inline-block;
+.software-skill-inline {
+    width: 5rem;
     margin-right: 20px;
-    margin-bottom: 20px;
-} 
-
-
-.software-skill-inline > i {
-    color: #c5c6c7;
 }
 
-.software-skill-inline > i:hover {
-    color: #645beb;
+.software-skill-inline img {
+    width: 5rem;
 }
-
-.software-skill-inline > p {
-    color: #45A29E;
-    font-size: 15px;
-    font-family: 'Alegreya', serif;
-    font-weight: 500;
-}
-
-.software-skill-inline > i:hover ~ p {
-    color: #645beb;
-}
-
-.skill-icons {
-    /* width: 50px;
-    height: 50px; */
-    /* background-color: #795548; */
-
-/* @media (max-width: 568px) {
-    .skills-main-div {
-        margin: 0 5rem;
-     }
-}
-
-*/
-
-/* @media only screen and (min-width: 569px) and (max-width: 1000px) {
-    .skills-main-div  {
-        margin: 1rem 1rem;
-    }
-} */
-
-/* @media (min-width: 768px) {
-    .skills-heading {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-} */
