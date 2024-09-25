@@ -4,7 +4,12 @@ nav {
     font-family: SpaceMono, "Roboto", sans-serif;
     position: fixed;
     z-index: 1;
-    /* border: 1px solid white; */
+    top: 1rem;
+    left: 1rem;
+}
+
+.scrolled {
+    display: none;
 }
 
 .header {
@@ -79,8 +84,8 @@ nav {
     font-size: 2rem;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
+    -webkit-transition:  0.3s ease-in-out;
+    transition:  0.3s ease-in-out ;
 }
 
 .header .menu .items {
