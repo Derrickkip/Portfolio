@@ -210,17 +210,6 @@ h1 {
 		align-items: center;
 		padding: 5rem 3rem;
 	}
-
-	/* .introduction {
-        font-size: 1.5rem;
-        line-height: 1.125;
-        margin-bottom: 0.5rem;
-    }
-
-    .side {
-        margin-bottom: 3rem;
-        width: 15rem;
-    } */
 }
 
 @media screen and (max-height: 740px) {
