@@ -37,7 +37,7 @@ function TopNavbar() {
     });
 
     return (
-        <nav className={navbar == 'notScrolled' ? '' : 'scrolled'}>
+        <nav className={navbar === 'notScrolled' ? '' : 'scrolled'}>
             <header className="header">
                 <input className="menu-btn" type="checkbox" id="menu-btn" checked={checked} readOnly />
                 <label className="menu-icon" htmlFor="menu-btn" onClick={toggleNavbarCollapse}>

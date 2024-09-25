@@ -46,7 +46,7 @@ const skills = {
             skillName: "Apollo Graphql",
             fontAwesomeClassname: "",
             svgIcon: require("./assets/images/icons8-apollo.svg"),
-            color: "#311C87" 
+            color: "#311C87"
         },
         // {
         //     skillName: "Siteprism",
@@ -146,4 +146,28 @@ const workExperiences = {
     ]
 }
 
-export {skills, workExperiences}
+const skillAdvantages = {
+    advantages: [
+        {
+            src: require("./assets/images/bricklane.png"),
+            title: 'Communication',
+            alt: 'communication icon',
+            details: 'I quickly reply to your messages during our work,since I am online most of the time, so cooperation is productive.'
+        },
+        {
+            src: require("./assets/images/bricklane.png"),
+            title: 'Business awareness',
+            alt: 'business icon',
+            details: 'Immersing in your business model, I can realize a project the way a client wants to see it, not just a developer.'
+        },
+        {
+            src: require("./assets/images/bricklane.png"),
+            title: 'Privacy',
+            alt: 'privacy icon',
+            details: 'Some projects have unique propertirs that shouldn\'t be public until the end of implemetation or even after.'
+        }
+
+    ]
+}
+
+export { skills, workExperiences, skillAdvantages }
