@@ -1,0 +1,22 @@
+.advantageCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ffffff;
+    padding: 2rem;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.advantageCard>img {
+    width: 2rem;
+    height: 2rem;
+}
+
+@media screen and (max-width: 1199px) {
+    .advantageCard {
+        width: 100%;
+        padding: 1rem;
+        margin-bottom: 2rem;
+    }
+}

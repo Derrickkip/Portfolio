@@ -33,7 +33,14 @@
     width: 3rem;
 }
 
-@media screen and (max-width: 799px) {
+.strengths {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1199px) {
     .skills {
         flex-direction: column;
     }
@@ -51,5 +58,9 @@
 
     .software-skill-inline img {
         width: 2rem;
+    }
+
+    .strengths {
+        flex-direction: column;
     }
 }

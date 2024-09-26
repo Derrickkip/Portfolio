@@ -60,12 +60,12 @@ export default function Skills() {
                         </div>
                     </div>
                     <div className="advantages">
-                        <h3>&lt;Advantages&gt;</h3>
-                        <div className="adv">
+                        <h3>&lt;Strengths&gt;</h3>
+                        <div className="strengths">
                             {skillAdvantages.advantages.map((experience, index) => {
                                 return (
                                     <AdvantageCard
-                                        cardInfo = {experience}
+                                        cardInfo={experience}
                                     />
                                 )
                             })}

@@ -1,6 +1,8 @@
 import React from "react";
 
-export default function AdvantageCard({cardInfo}) {
+import './AdvantageCard.css'
+
+export default function AdvantageCard({ cardInfo }) {
     return (
         <div className="advantageCard">
             <img src={cardInfo.src}
