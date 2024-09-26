@@ -107,10 +107,10 @@ const workExperiences = {
         {
             role: "Freelance Software Engineer",
             company: "Concept 254",
-            companylogo: require("./assets/images/concept.png"),
+            companylogo: require("./assets/images/kingdom.png"),
             date: "August 2020 - May 2022",
             desc: "Concept 254 is a company that offers development services to clients. Some of the projects I've worked on include : ",
-            link: "https://www.kingdom316gifts.com",
+            link: "https://kingdom316gifts.com/p071414.html",
             descBullets: [
                 "Customised the product page to enable editing of product personalisation and viewing of personalised product.",
                 "Integrated the application with Directsmile DSMI server to enable personalisation of gifts",
@@ -120,7 +120,7 @@ const workExperiences = {
         {
             role: "Software Engineer",
             company: "Bricklane Technologies",
-            companylogo: require("./assets/images/bricklane.png"),
+            companylogo: require("./assets/images/bricklanehome.png"),
             date: "June 2019 - February 2020",
             desc: "Bricklane is an investment company in London, UK that allows it's customers to invest in expertly choosen property in various cities across the UK returning dividends from rental income of the properties. \n Some of my achievements while in Bricklane include:",
             link: "https://www.bricklane.com",
@@ -130,19 +130,19 @@ const workExperiences = {
                 "Wrote unit and integration tests for existing and new features.",
             ]
         },
-        {
-            role: "Software Engineer",
-            company: "Andela Kenya",
-            companylogo: require("./assets/images/andela.png"),
-            date: "August 2018 - April 2020",
-            desc: "Andela is a software development company that employs promising developers in Africa and provides them with work experience to enable them level up their skills. Some of the noteworthy experiences in Andela include:",
-            link: "https://www.andela.com",
-            descBullets: [
-                "Worked on wire, an inhouse workplace incident reporting application",
-                "Worked in a remote team to build Activo, an inhouse asset management application",
-                "During my internship, I worked on Authors Haven, an application that allows authors to share creative ideas."
-            ]
-        },
+        // {
+        //     role: "Software Engineer",
+        //     company: "Andela Kenya",
+        //     companylogo: require("./assets/images/andela.png"),
+        //     date: "August 2018 - April 2020",
+        //     desc: "Andela is a software development company that employs promising developers in Africa and provides them with work experience to enable them level up their skills. Some of the noteworthy experiences in Andela include:",
+        //     link: "https://www.andela.com",
+        //     descBullets: [
+        //         "Worked on wire, an inhouse workplace incident reporting application",
+        //         "Worked in a remote team to build Activo, an inhouse asset management application",
+        //         "During my internship, I worked on Authors Haven, an application that allows authors to share creative ideas."
+        //     ]
+        // },
     ]
 }
 

@@ -1,12 +1,17 @@
 .footer {
-    /* background-color: #000; */
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #FDC82F;
+    color: #9E9E9E;
 }
 
 .footer > h5 {
     font-size: 0.90rem;
     font-weight: normal;
+}
+
+@media screen and (max-width: 799px) {
+    .footer > h5 {
+        font-size: 0.6rem;
+    }
 }

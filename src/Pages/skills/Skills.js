@@ -48,12 +48,6 @@ export default function Skills() {
                                         <img alt="skill-icon"
                                             src={skills.svgIcon}
                                         />
-                                        {/* <p className="skill-name">{skills.skillName}</p>
-                                <div>
-                                {skills.miniSkills.map((mini, index) => {
-                                    return (<span key={index} className="mini">{mini + ', '}</span>)
-                                })}
-                                </div> */}
                                     </div>
                                 )
                             })}
@@ -66,6 +60,7 @@ export default function Skills() {
                                 return (
                                     <AdvantageCard
                                         cardInfo={experience}
+                                        key={index}
                                     />
                                 )
                             })}

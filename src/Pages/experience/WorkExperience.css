@@ -1,56 +1,13 @@
-.experience-container {
+.projects {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    margin-right: auto;
-    margin-left: auto;
-    width: 100% 
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    overflow: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
 }
 
- .exp-heading {
+.projects-cards {
     display: flex;
-    flex-wrap: wrap;
-    flex: 0 0 33.33333333%;
-    max-width: 33.3333333%;
-    justify-content: center;
-}
-
-
-
-.experience-cards-div {
-    display: flex;
-    flex-wrap: wrap;
-    flex: 0 0 66.66666667%;
-    max-width: 66.66666667%;
-}
-
-
-
-.exp-row {
-    display: flex;
-}
-
-/* @media  screen and (max-width: 768px) {
-    .exp-heading {
-        padding-left: 1.25rem;
-    }
-} */
-
-@media screen and (max-width: 1200px) {
-    .experience-container {
-        flex-direction: column;
-    }
-
-    .experience-cards-div, .exp-heading {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-
-    .exp-heading {
-        justify-content: flex-start;
-        padding-left: 1.25rem;
-    }
-
 }
