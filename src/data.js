@@ -7,20 +7,20 @@ const skills = {
             svgIcon: require("./assets/images/icons8-python.svg"),
             // color: "#3776AB"
         },
-        // {
-        //     skillName: "Javascript",
-        //     fontAwesomeClassname: "fab fa-js-square",
-        //     miniSkills: ['es6', 'React', 'Redux'],
-        //     svgIcon: require("./assets/images/icons8-python.svg"),
-        //     // color: "#3776AB"
-        // },
-        // {
-        //     skillName: "Databases",
-        //     fontAwesomeClassname: "fas fa-database",
-        //     miniSkills: ['Postgresql'],
-        //     svgIcon: require("./assets/images/icons8-python.svg"),
-        //     // color: "#3776AB"
-        // },
+        {
+            skillName: "Javascript",
+            fontAwesomeClassname: "fab fa-js-square",
+            miniSkills: ['es6', 'React', 'Redux'],
+            svgIcon: require("./assets/images/icons8-javascript.svg"),
+            // color: "#3776AB"
+        },
+        {
+            skillName: "Databases",
+            fontAwesomeClassname: "fas fa-database",
+            miniSkills: ['Postgresql'],
+            svgIcon: require("./assets/images/icons8-postgresql.svg"),
+            // color: "#3776AB"
+        },
         {
             skillName: "Devops",
             fontAwesomeClassname: "fab fa-docker",
@@ -35,24 +35,31 @@ const skills = {
             // color: "#007ACC"
             miniSkills: ['Cucumber', 'Siteprism', 'Cabybara', 'Cypress']
         },
-        // {
-        //     skillName: "Tools",
-        //     fontAwesomeClassname: "fas fa-tools",
-        //     svgIcon: require("./assets/images/icons8-graphql.svg"),
-        //     // color: "#E10098"
-        //     miniSkills: ['Git', 'Github', 'Graphql']
-        // },
+        {
+            skillName: "Tools",
+            fontAwesomeClassname: "fas fa-tools",
+            svgIcon: require("./assets/images/icons8-react-80.png"),
+            color: "#E10098",
+            miniSkills: ['Git', 'Github', 'Graphql']
+        },
+        {
+            skillName: "Tools",
+            fontAwesomeClassname: "fas fa-tools",
+            svgIcon: require("./assets/images/icons8-redux.svg"),
+            color: "#E10098",
+            miniSkills: ['Git', 'Github', 'Graphql']
+        },
         {
             skillName: "Apollo Graphql",
             fontAwesomeClassname: "",
             svgIcon: require("./assets/images/icons8-apollo.svg"),
             color: "#311C87"
         },
-        // {
-        //     skillName: "Siteprism",
-        //     fontAwesomeClassname: "",
-        //     svgIcon: require("./assets/images/siteprism.png"),
-        // },
+        {
+            skillName: "Siteprism",
+            fontAwesomeClassname: "",
+            svgIcon: require("./assets/images/icons8-linux-48.png"),
+        },
         // {
         //     skillName: "Cypress",
         //     fontAwesomeClassname: "",

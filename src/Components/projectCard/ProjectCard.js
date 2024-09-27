@@ -8,11 +8,11 @@ export default function ProjectCard({ cardInfo }) {
     }
 
     return (
-        <div className="card">
+        <li className="card">
             {/* <div className='cardInner'> */}
-            <a href={cardInfo.link} className="projectLink" target="_blank"></a> 
+            {/* <a href={cardInfo.link} className="projectLink"></a>  */}
             <img src={cardInfo.companylogo} alt={cardInfo.alt} />
             {/* </div> */}
-        </div>
+        </li>
     );
 }
