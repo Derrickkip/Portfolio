@@ -5,6 +5,7 @@ import Home from './Pages/home/Home';
 import Skills from './Pages/skills/Skills';
 import Experience from './Pages/experience/WorkExperience';
 import Contact from './Pages/contact/Contact';
+import Social from './Components/social/Social';
 import './assets/fonts/Font Awesome 5 Pro Solid.woff'
 import './App.css';
 
@@ -17,6 +18,7 @@ function App() {
       <Experience />
       <Contact />
       <Footer />
+      <Social />
     </div>
   );
 }
