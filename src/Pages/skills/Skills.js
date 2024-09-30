@@ -34,11 +34,11 @@ export default function Skills() {
                             <h3>&lt;Skills&gt;</h3>
                             <p className="introduction">Skills I possess as a specialist</p>
                             <ul>
-                                <li>Website development</li>
-                                <li>Database development</li>
-                                <li>Python Scripting</li>
-                                <li>Website parsing, automatization</li>
-                                <li>Chatbot development</li>
+                                <li>Backend Development</li>
+                                <li>Frontend Development</li>
+                                <li>Test Driven Development</li>
+                                <li>Magento E-commerce development</li>
+                                {/* <li>Chatbot development</li> */}
                             </ul>
                         </div>
                         <div className="icons">

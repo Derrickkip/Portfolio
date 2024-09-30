@@ -159,13 +159,13 @@ const skillAdvantages = {
             src: require("./assets/images/bricklane.png"),
             title: 'Communication',
             alt: 'communication icon',
-            details: 'I quickly reply to your messages during our work,since I am online most of the time, so cooperation is productive.'
+            details: 'I believe that proactive communication is a key ingredient for successful collaboration on a project and therefore I make every effort to clearly understand clients expectations and constantly update on progress.'
         },
         {
             src: require("./assets/images/bricklane.png"),
-            title: 'Business awareness',
+            title: 'Team Player',
             alt: 'business icon',
-            details: 'Immersing in your business model, I can realize a project the way a client wants to see it, not just a developer.'
+            details: 'Magic happens when we work together with each individual bringing their'
         },
         {
             src: require("./assets/images/bricklane.png"),
