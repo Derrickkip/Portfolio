@@ -165,7 +165,7 @@ const skillAdvantages = {
             src: require("./assets/images/bricklane.png"),
             title: 'Team Player',
             alt: 'business icon',
-            details: 'Magic happens when we work together with each individual bringing their'
+            details: 'Magic happens when we work together with each individual bringing their unique talents and '
         },
         {
             src: require("./assets/images/bricklane.png"),
