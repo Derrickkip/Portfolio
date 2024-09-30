@@ -10,17 +10,17 @@ import './assets/fonts/Font Awesome 5 Pro Solid.woff'
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <Navbar />
-      <Home />
-      <Skills />
-      <Experience />
-      <Contact />
-      <Footer />
-      <Social />
-    </div>
-  );
+    return (
+        <div className="App">
+            <Navbar />
+            <Home />
+            <Skills />
+            <Experience />
+            <Contact />
+            <Footer />
+            <Social />
+        </div>
+    );
 }
 
 export default App;

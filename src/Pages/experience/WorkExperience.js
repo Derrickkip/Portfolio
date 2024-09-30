@@ -12,8 +12,8 @@ export default function WorkExperience() {
                     <h3>&lt;Projects&gt;</h3>
                     <div className="projects-cards">
                         <ul>
-                        {workExperiences.experience.map((card, index) => {
-                            return (
+                            {workExperiences.experience.map((card, index) => {
+                                return (
                                     <ProjectCard
                                         cardInfo={{
                                             company: card.company,
@@ -24,10 +24,10 @@ export default function WorkExperience() {
                                             link: card.link,
                                             descBullets: card.descBullets
                                         }}
-                                        key ={index}
+                                        key={index}
                                     />
-                            );
-                        })}
+                                );
+                            })}
                         </ul>
                     </div>
                 </div>

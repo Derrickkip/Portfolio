@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import Social from '../../Components/social/Social';
+import React from 'react';
 import Button from '../../Components/button/Button';
 import image from '../../assets/images/derrick.jpg';
 import './Home.css';
@@ -23,7 +22,6 @@ export default function Home() {
                     />
                 </div>
             </main>
-            {/* <Social /> */}
         </div>
     );
 }
