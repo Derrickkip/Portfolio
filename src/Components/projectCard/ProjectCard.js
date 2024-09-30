@@ -3,10 +3,6 @@ import './ProjectCard.css';
 
 export default function ProjectCard({ cardInfo }) {
 
-    const GetDescBullets = ({ descBullets }) => {
-        return descBullets ? descBullets.map((item, index) => <li key={index} className="bullet-item">{item}</li>) : null
-    }
-
     return (
         <li className="card">
             {/* <div className='cardInner'> */}

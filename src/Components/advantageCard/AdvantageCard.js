@@ -8,8 +8,8 @@ export default function AdvantageCard({ cardInfo }) {
             <img src={cardInfo.src}
                 alt={cardInfo.alt
                 } />
-            <h2>{cardInfo.title}</h2>
-            <p>{cardInfo.details}</p>
+            <p className="cardTitle">{cardInfo.title}</p>
+            <p className="cardDetails">{cardInfo.details}</p>
         </div>
     )
 }

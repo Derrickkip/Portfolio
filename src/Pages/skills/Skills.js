@@ -32,7 +32,7 @@ export default function Skills() {
                     <div className="skills">
                         <div className="overview">
                             <h3>&lt;Skills&gt;</h3>
-                            <h2>Skills I possess as a specialist</h2>
+                            <p className="introduction">Skills I possess as a specialist</p>
                             <ul>
                                 <li>Website development</li>
                                 <li>Database development</li>
