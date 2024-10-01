@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.0d9e98fb.chunk.css",
+    "main.js": "/portfolio/static/js/main.a1b75202.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a1b75202.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.8940859c.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.8940859c.js.map",
+    "static/js/2.d3b6e2a1.chunk.js": "/portfolio/static/js/2.d3b6e2a1.chunk.js",
+    "static/js/2.d3b6e2a1.chunk.js.map": "/portfolio/static/js/2.d3b6e2a1.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.ed224f3b6dc7471e744230e6fa3b89e4.js": "/portfolio/precache-manifest.ed224f3b6dc7471e744230e6fa3b89e4.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.0d9e98fb.chunk.css.map": "/portfolio/static/css/main.0d9e98fb.chunk.css.map",
+    "static/js/2.d3b6e2a1.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d3b6e2a1.chunk.js.LICENSE.txt",
+    "static/media/Font Awesome 5 Pro Solid.woff": "/portfolio/static/media/Font Awesome 5 Pro Solid.418708e7.woff",
+    "static/media/index.css": "/portfolio/static/media/SpaceMono-Regular.96985f7a.ttf",
+    "static/media/bricklanehome.png": "/portfolio/static/media/bricklanehome.6d29eb7f.png",
+    "static/media/cucumber.png": "/portfolio/static/media/cucumber.5668799f.png",
+    "static/media/derrick.jpg": "/portfolio/static/media/derrick.1c84753d.jpg",
+    "static/media/icons8-amazon-web-services.svg": "/portfolio/static/media/icons8-amazon-web-services.71a20edd.svg",
+    "static/media/icons8-apollo.svg": "/portfolio/static/media/icons8-apollo.ae78c3ad.svg",
+    "static/media/icons8-docker.svg": "/portfolio/static/media/icons8-docker.46dcb463.svg",
+    "static/media/icons8-git.svg": "/portfolio/static/media/icons8-git.68fe4fb0.svg",
+    "static/media/icons8-graphql.svg": "/portfolio/static/media/icons8-graphql.102adadc.svg",
+    "static/media/icons8-javascript.svg": "/portfolio/static/media/icons8-javascript.f6967c81.svg",
+    "static/media/icons8-magento.svg": "/portfolio/static/media/icons8-magento.127d2700.svg",
+    "static/media/icons8-postgresql.svg": "/portfolio/static/media/icons8-postgresql.0c86da88.svg",
+    "static/media/icons8-python.svg": "/portfolio/static/media/icons8-python.0b948ab5.svg",
+    "static/media/icons8-redux.svg": "/portfolio/static/media/icons8-redux.a248a991.svg",
+    "static/media/icons8-typescript.svg": "/portfolio/static/media/icons8-typescript.265f3327.svg",
+    "static/media/kingdom.png": "/portfolio/static/media/kingdom.cf74446a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8940859c.js",
+    "static/js/2.d3b6e2a1.chunk.js",
+    "static/css/main.0d9e98fb.chunk.css",
+    "static/js/main.a1b75202.chunk.js"
+  ]
+}
