@@ -11,14 +11,14 @@
 }
 
 .projects-cards {
-    display: inline-block;
+    display: flex;
     position: relative;
 
     width: 100%;
     margin-top: 10px;
 }
 
-.projects-cards > ul {
+.projects-cards > div {
     display: flex;
     position: relative;
     z-index: 1;
@@ -29,4 +29,11 @@
 
     overflow: hidden;
     white-space: nowrap;
+}
+
+
+@media screen and (max-width: 798px) {
+    .projects-cards > div {
+        flex-direction: column;
+    }
 }

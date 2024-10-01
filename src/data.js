@@ -122,7 +122,9 @@ const workExperiences = {
                 "Customised the product page to enable editing of product personalisation and viewing of personalised product.",
                 "Integrated the application with Directsmile DSMI server to enable personalisation of gifts",
                 "Updated the order csv exports to include personalisation details."
-            ]
+            ],
+            descriptionHeader: "Personalisation feature for Kingdom316gifts",
+            tools: ["Magento2", "PHP", "Javascript", "Opayo"]
         },
         {
             role: "Software Engineer",
@@ -135,7 +137,10 @@ const workExperiences = {
                 "Implemented several key features from the backlog including automating the bi weekly platform orders.",
                 "Implemented 3D secure stripe payment.",
                 "Wrote unit and integration tests for existing and new features.",
-            ]
+            ],
+            descriptionHeader: "Funds administration backend in Bricklane",
+            tools: ["Flask", "Python", "React", "Graphql", "Stripe", "Site prism"]
+
         },
         // {
         //     role: "Software Engineer",

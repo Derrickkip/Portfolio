@@ -1,0 +1,13 @@
+.tool-tip {
+    background-color: rgba(63, 63, 70, .95);
+    font-weight: 600;
+    font-size: .75rem;
+    line-height: 1rem;
+    padding: .125rem .5rem;
+    border-color: transparent;
+    border-width: 1px;
+    border-radius: 9999px;
+    align-items: center;
+    display: inline-flex;
+    box-sizing: border-box;
+}
